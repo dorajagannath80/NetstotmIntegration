@@ -1,15 +1,15 @@
 pipeline {
      
-  agent any
+  agent {label 'Linux'}
   
   /*Intializing Netstorm test configuration*/
   environment {
-def url = "https://sanetstorm001.lowes.com:4434/"
+def url = "https://184.105.48.40:4434/"
 def username = "cavisson"
 def password = "@dmin"
-def project = "OmniaOrderMod"
-def subProject = "OmniaAPI_APIC"
-def scenario = "MRV_API_SmokeTest" //testsuite name will be given
+def project = "default"
+def subProject = "default"
+def scenario = "TS1" //testsuite name will be given
 def baselineTR = "-1" //Base line test run will be given as 1386
 def report = " "
 def testMode = "T"
