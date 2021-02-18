@@ -1,6 +1,6 @@
 pipeline {
      
-  agent {label 'Linux'}
+  agent any
   
   /*Intializing Netstorm test configuration*/
   environment {
