@@ -4,7 +4,7 @@ pipeline {
   
   /*Intializing Netstorm test configuration*/
   environment {
-def url = "https://184.105.48.40:4434/"
+def url = "https://216.218.163.75:4432/"
 def username = "cavisson"
 def password = "@dmin"
 def project = "default"
